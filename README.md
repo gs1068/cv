@@ -108,7 +108,7 @@ Terraform を用いた インフラのコード化。
 作業の自動化を積極的に行い、デプロイや運用手順書を作成した。
 フロントエンドからバックエンドまでフルスタックに担当した。
 
-#### 自社開発「学生向け就活 SNS サイト」【React.js | Golang | Firebase | GCP | Kubernetes | Docker】(2021 年 5 月〜)
+#### 自社開発「学生向け就活 SNS サイト」【React.js | Golang | Firebase | GCP | Docker】(2021 年 5 月〜)
 
 【プロジェクト概要】
 
@@ -125,7 +125,7 @@ Terraform を用いた インフラのコード化。
 - Firebase Authentication でユーザー２段階認証の追加。
 - Firebase Storage で画像や PDF ファイルの複数枚投稿を実装。
 - Firebase Function にメール送信機能を実装。
-- GCP(Kubernetes) デプロイ用 シェスクリプトの作成。
+- GCP デプロイ用 シェスクリプトの作成。
 - サイト全体のリファクタリング。特に React のコンポーネント化で DRY に再実装を行い既存の機能が失われないように実装。
 
 【実績】
