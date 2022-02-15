@@ -1,4 +1,4 @@
-# 職務経歴書 2022.02.1
+# 職務経歴書 2022.02.15
 
 ## 個人情報
 
@@ -7,6 +7,7 @@
 |      氏名      | Genta Saito                                               |
 |      年齢      | 24 歳                                                     |
 |      住所      | 東京都                                                    |
+|     Email      | genta.otias@gmail.com                                     |
 |      趣味      | ラテアート、深夜ラジオ、料理、散歩                        |
 | ポートフォリオ | https://github.com/gs1068/daily_fruit Golang がメインです |
 |     Qiita      | https://qiita.com/gs1068                                  |
@@ -35,7 +36,7 @@ VPC | EC2 | ALB | ECS | Fargate | ECR | RDS(MySQL) | Route53 | ACM | IAM | Cloud
 
 Authentication | Firestore Database | Strage | Functions
 
-#### SaaS|PaaS
+#### SaaS | PaaS
 
 Github | CircleCI
 
