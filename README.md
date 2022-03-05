@@ -2,15 +2,15 @@
 
 ## 個人情報
 
-|      項目      | 詳細                                                      |
-| :------------: | :-------------------------------------------------------- |
-|      氏名      | Genta Saito                                               |
-|      年齢      | 24 歳                                                     |
-|      住所      | 東京都                                                    |
-|     Email      | genta.otias@gmail.com                                     |
-|      趣味      | ラテアート、深夜ラジオ、料理、散歩                        |
-| ポートフォリオ | https://github.com/gs1068/daily_fruit Golang がメインです |
-|     Qiita      | https://qiita.com/gs1068                                  |
+|      項目      | 詳細                                                                                     |
+| :------------: | :--------------------------------------------------------------------------------------- |
+|      氏名      | Genta Saito                                                                              |
+|      年齢      | 24 歳                                                                                    |
+|      住所      | 東京都                                                                                   |
+|     Email      | genta.otias@gmail.com                                                                    |
+|      趣味      | ラテアート、深夜ラジオ、料理、散歩                                                       |
+| ポートフォリオ | https://github.com/gs1068/daily_fruit</br>https://github.com/gs1068/terraform_aws_sample |
+|     Qiita      | https://qiita.com/gs1068                                                                 |
 
 ## スキル
 
