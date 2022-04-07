@@ -32,6 +32,10 @@ Mysql
 
 VPC | EC2 | ALB | ECS | Fargate | ECR | RDS(MySQL) | Route53 | ACM | IAM | Cloud Watch | S3
 
+##### GCP
+
+Cloud Build | Cloud Run | Artifact Registry
+
 ##### Firebase
 
 Authentication | Firestore Database | Strage | Functions
@@ -46,9 +50,9 @@ Terraform | Docker | nginx | ShellScript | JWT | YAML
 
 ## 職務経歴概要
 
-### 【Web アプリケーション開発 2021 年 ~】
+### 【Web アプリケーション開発 2021 年 ~ 2022 年】
 
-#### 受託開発「自動車特化型フリマアプリ」【Next.js | Typescript | Golang | Firebase | Terraform | AWS | CircleCI | Docker】(2021 年 9 月〜)
+#### 受託開発「自動車特化型フリマアプリ」【Next.js | Typescript | Golang | Firebase | Terraform | AWS | CircleCI | Docker】(2021 年 9 月〜 2022 年 5 月)
 
 【プロジェクト概要】
 
@@ -108,7 +112,7 @@ Terraform を用いた インフラのコード化。
 作業の自動化を積極的に行い、デプロイや運用手順書を作成した。
 フロントエンドからバックエンドまでフルスタックに担当した。
 
-#### 自社開発「学生向け就活 SNS サイト」【React.js | Golang | Firebase | GCP | Docker | Github Actions】(2021 年 5 月〜)
+#### 自社開発「学生向け就活 SNS サイト」【React.js | Golang | Firebase | GCP | Docker | Github Actions】(2021 年 5 月〜 2022 年 5 月)
 
 【プロジェクト概要】
 
