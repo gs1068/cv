@@ -1,16 +1,14 @@
-# 職務経歴書 2022.02.15
+# 職務経歴書 2022.11.01
 
 ## 個人情報
 
 |      項目      | 詳細                                                                                     |
 | :------------: | :--------------------------------------------------------------------------------------- |
 |      氏名      | Genta Saito                                                                              |
-|      年齢      | 24 歳                                                                                    |
+|      年齢      | 25 歳                                                                                    |
 |      住所      | 東京都                                                                                   |
 |     Email      | genta.otias@gmail.com                                                                    |
 |      趣味      | ラテアート、深夜ラジオ、料理、散歩                                                       |
-| ポートフォリオ | https://github.com/gs1068/daily_fruit</br>https://github.com/gs1068/terraform_aws_sample |
-|     Qiita      | https://qiita.com/gs1068                                                                 |
 
 ## スキル
 
@@ -18,35 +16,21 @@
 
 Golang | Javascript | Typescript | PHP | Ruby
 
-#### Framework
-
-Echo | Gorm | React.js | Next.js | Vue.js | Laravel | Tailwind css | Ruby on Rails
-
 #### DB
 
 Mysql
 
 #### Infrastructure
 
-##### AWS
-
-VPC | EC2 | ALB | ECS | Fargate | ECR | RDS(MySQL) | Route53 | ACM | IAM | Cloud Watch | S3
-
-##### GCP
-
-Cloud Build | Cloud Run | Artifact Registry
-
-##### Firebase
-
-Authentication | Firestore Database | Strage | Functions
+AWS | Firebase | GCP
 
 #### SaaS | PaaS
 
-Github | Github Actions | CircleCI
+Github | Github Actions | CircleCI | JIRA | Confluence
 
 #### Other
 
-Terraform | Docker | nginx | ShellScript | JWT | YAML
+Terraform | Docker | Datadog | Kubernetes | Helm | Skaffold
 
 ## 職務経歴概要
 
@@ -68,19 +52,12 @@ Terraform を用いた インフラのコード化。
 - システムフロー作成。
 - プロジェクトファイル構成検討。
 - Next.js(TypeScript) によるフロントエンド部分の実装。
-- Next.js 側で JWT の認証ミドルウェアの実装。
 - Golang による REST JSON API サーバーの構築。フレームワークは Echo、ORM には GORM を採用。
-- Golang の http 自動テストの実装。シェルスクリプトを実行することでテスト用 DB への接続、サンプルデータ生成、テスト実行、クリーンアップなどの一連の作業が行えるように自動化。
-- Golang JWT 発行と認証機能の実装。リクエストの機密レベルによって本人確認が行えるミドルウェアを実装。
-- Golang エラーハンドリングミドルウェアの実装。
-- Postman で API 仕様書の作成。
+- Golang JWT 発行と認証機能の実装。
 - テスト環境用の Seeder を作成し、シェルスクリプトで自動生成できるように実装。
-- CSV から Golang にマスターデータの取り込み。
 - Mysql のテーブル設計や構築。リレーションの構築。
-- Docker マルチステージビルドを使用し、コンテナイメージの軽量化。
-- Terraform でのインフラのコード化。各モジュールごとにデプロイタイミングを３段階にレイヤーを分けることで開発スピードの向上と、保守性の向上を図った。
+- Terraform でのインフラのコード化。
 - Firebase Authentication でユーザー２段階認証の追加。
-- AWS(ECR | ECS) デプロイ用 シェルスクリプトの作成。
 - シェルスクリプトで様々な業務の自動化。（自動テスト、テストデータ生成、テーブル構築）
 - CircleCI で CI/CD パイプラインの構築。本番環境とステージング環境のデプロイを実現。
 
@@ -131,24 +108,10 @@ Terraform を用いた インフラのコード化。
 - Firebase Function にメール送信機能を実装。
 - GCP デプロイ用 シェスクリプトの作成。
 - Github Actions で CI/CD パイプラインの構築。本番環境とステージング環境のデプロイを実現。
-- サイト全体のリファクタリング。特に React のコンポーネント化で DRY に再実装を行い既存の機能が失われないように実装。
+- サイト全体のリファクタリング。
 
 【実績】
 新規機能の追加に加えサービスリリース前後で煩雑になっていたディレクトリ構成やファイルをリファクタリングを徹底的に行なった。手作業で行なっていたコンテナのデプロイ作業やそれに関連する設定ファイルの変更を シェスクリプトで自動化することで大幅なデプロイ時間削減に貢献し、作業を標準化することで作業を標準化することができた。フロントエンドからバックエンドまでフルスタックに担当した。
-
-#### 教育
-
-- インターン生へプログラミング基礎トレーニングを実施【React | Golang | Github | Docker】
-- ２名のうち１名はメンターとして業務全体のフォローを行なった。
-- 日々スキルアップや業務へのフィードバックを行なった。
-- ０から学習スタートのインターン生が Go と React を使った自社サービスの新規機能を一人で開発できるところまで成長させることに成功した。
-
-#### 制度
-
-- 社内に Pull Request をルール化、Slack でのワークフローを実施。
-- 積極的なコートレビューやリファクタリングを行う雰囲気作り。
-- 各プロジェクトサーバーへのデプロイに SOP(標準作業手順書)を制定し、作業を標準化。
-- リモートワークの提案とルール制定。
 
 ## 職務経歴(エンジニア以前)
 
