@@ -2,39 +2,63 @@
 
 ## 個人情報
 
-|      項目      | 詳細                                                                                     |
-| :------------: | :--------------------------------------------------------------------------------------- |
-|      氏名      | Genta Saito                                                                              |
-|      年齢      | 25 歳                                                                                    |
-|      住所      | 東京都                                                                                   |
-|     Email      | genta.otias@gmail.com                                                                    |
-|      趣味      | ラテアート、深夜ラジオ、料理、散歩                                                       |
+| 項目  | 詳細                               |
+| :---: | :--------------------------------- |
+| 氏名  | Genta Saito                        |
+| 年齢  | 25 歳                              |
+| 住所  | 東京都                             |
+| Email | genta.otias@gmail.com              |
+| 趣味  | ラテアート、深夜ラジオ、料理、散歩 |
 
-## スキル
+## 使用したことのあるスキル
 
 #### Language
 
-Golang | Javascript | Typescript | PHP | Ruby
+Golang | Javascript | Typescript | PHP | Ruby | Python
 
-#### DB
+#### Framework
 
-Mysql
+Echo | Goa | Openapi | Gorm | Ruby on Rails | Django | Vue.js | React | Next.js
 
-#### Infrastructure
+#### RDB/NoSQL
 
-AWS | Firebase | GCP
+Mysql | DynamoDB
+
+#### Cloud
+
+##### AWS
+
+##### Firebase
+
+##### GCP
 
 #### SaaS | PaaS
 
-Github | Github Actions | CircleCI | JIRA | Confluence
+Github | Github Actions | CircleCI | JIRA | Confluence | Snyk | Trivy
 
 #### Other
 
-Terraform | Docker | Datadog | Kubernetes | Helm | Skaffold
+Terraform | Docker | Datadog | Elasticsearch | Kubernetes | Helm | Skaffold | One Login
 
 ## 職務経歴概要
 
-### 【Web アプリケーション開発 2021 年 ~ 2022 年】
+#### 自社開発「ニュースキュレーションアプリ」【Javascript | Golang | Terraform | AWS | CircleCI | Docker | Datadog】(2022 年 5 月〜 )
+
+【プロジェクト概要】
+
+某大手キャリアのポータル兼ニュースキュレーションアプリ開発
+
+【担当業務】
+
+- サーバーサイド開発
+
+  - キャンペーンのための API/DB/プロモコード周りの構築
+
+- インフラ構築
+  - EKS バージョンアップグレード作業
+  - Helm Chart による EKS のパッケージ管理
+  - SRE チームからあがってくるセキュリティの指摘対応
+  - Terraform による AWS の Iac 化
 
 #### 受託開発「自動車特化型フリマアプリ」【Next.js | Typescript | Golang | Firebase | Terraform | AWS | CircleCI | Docker】(2021 年 9 月〜 2022 年 5 月)
 
@@ -52,7 +76,7 @@ Terraform を用いた インフラのコード化。
 - システムフロー作成。
 - プロジェクトファイル構成検討。
 - Next.js(TypeScript) によるフロントエンド部分の実装。
-- Golang による REST JSON API サーバーの構築。フレームワークは Echo、ORM には GORM を採用。
+- Golang による REST JSON API サーバーの構築。
 - Golang JWT 発行と認証機能の実装。
 - テスト環境用の Seeder を作成し、シェルスクリプトで自動生成できるように実装。
 - Mysql のテーブル設計や構築。リレーションの構築。
@@ -101,7 +125,7 @@ Terraform を用いた インフラのコード化。
 
 - 新規機能追加などの企画会議への参加。
 - React.js によるフロントエンド部分の実装。Firebase との連携。
-- Golang による REST JSON API サーバーの構築。フレームワークは Echo、ORM には GORM を採用。
+- Golang による REST JSON API サーバーの構築。
 - Mysql のテーブル設計や構築
 - Firebase Authentication でユーザー２段階認証の追加。
 - Firebase Storage で画像や PDF ファイルの複数枚投稿を実装。
