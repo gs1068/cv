@@ -2,13 +2,13 @@
 
 ## 個人情報
 
-| 項目  | 詳細                               |
-| :---: | :--------------------------------- |
-| 氏名  | Genta Saito                        |
-| 年齢  | 25 歳                              |
-| 住所  | 東京都                             |
-| Email | genta.otias@gmail.com              |
-| 趣味  | ラテアート、深夜ラジオ、料理、散歩 |
+| 項目  | 詳細                                 |
+| :---: | :----------------------------------- |
+| 氏名  | Genta Saito                          |
+| 年齢  | 25 歳                                |
+| 住所  | 神奈川県                             |
+| Email | genta.otias@gmail.com                |
+| 趣味  | 深夜ラジオ、料理、散歩, サイクリング |
 
 ## 使用したことのあるスキル
 
@@ -30,19 +30,40 @@ Mysql | DynamoDB
 
 ##### Firebase
 
-##### GCP
-
 #### SaaS | PaaS
 
-Github | Github Actions | CircleCI | JIRA | Confluence | Snyk | Trivy
+Github | Github Actions | CircleCI | JIRA | Confluence | Snyk | Trivy | Slack | miro
 
 #### Other
 
-Terraform | Docker | Datadog | Elasticsearch | Kubernetes | Helm | Skaffold | One Login
+Terraform | Docker | Datadog | Elasticsearch | Kubernetes | Helm | Skaffold | Onelogin
 
 ## 職務経歴概要
 
-#### 自社開発「ニュースキュレーションアプリ」【Javascript | Golang | Terraform | AWS | CircleCI | Docker | Datadog】(2022 年 5 月〜 )
+#### 自社開発「ニュースキュレーションアプリ」【TypeScript | Next.js | GraphQL | Golang | Terraform | AWS | Github Actions | Docker】(2023 年 7 月〜 )
+
+【プロジェクト概要】
+
+某大手キャリアのポータル兼ニュースキュレーションアプリの新管理画面開発
+
+【担当業務】
+
+- サーバーサイド開発
+
+  - 技術選定
+  - 運用チームから要望を聞き、機能に盛り込む
+  - 管理画面の画面構成設計
+  - ALB での Onelogin OIDC 認証の連携とユーザーごとの権限管理
+  - Onelogin から JWT トークンを発行し、認証機能の実装
+  - テーブル設計
+  - GraphQL による API サーバーの構築
+  - フロントエンドとの連携
+  - 新管理画面のリリースに伴うサービスの構築
+  - ポイント付与キャンペーンのための API/テーブル設計/プロモコード周りの構築
+  - Terraform で必要なリソースの構築
+  - Github Action での CI/CD パイプラインの構築
+
+#### 自社開発「ニュースキュレーションアプリ」【Golang | Terraform | AWS | CircleCI | Github Actions | Docker | Datadog | Kubernetes】(2022 年 5 月〜 )
 
 【プロジェクト概要】
 
@@ -52,13 +73,18 @@ Terraform | Docker | Datadog | Elasticsearch | Kubernetes | Helm | Skaffold | On
 
 - サーバーサイド開発
 
-  - キャンペーンのための API/DB/プロモコード周りの構築
+  - 新規施策のための API/テーブル設計
+  - 他社サービス API との連携
+  - リアルタイム更新のプロ野球スコアボードの実装
+  - ポイント付与キャンペーンのための API/テーブル設計/プロモコード周りの構築
 
-- インフラ構築
-  - EKS バージョンアップグレード作業
+- インフラ
+  - EKS バージョンアップグレード作業(1.21 → 1.22 / 1.22 → 1.23)
   - Helm Chart による EKS のパッケージ管理
-  - SRE チームからあがってくるセキュリティの指摘対応
+  - Snyk からあがってくるセキュリティの指摘対応
   - Terraform による AWS の Iac 化
+  - RDS ソフトウェアのアップデートのための深夜メンテ業務
+  - CircleCI から　 Github Actions への CI/CD パイプラインの移行
 
 #### 受託開発「自動車特化型フリマアプリ」【Next.js | Typescript | Golang | Firebase | Terraform | AWS | CircleCI | Docker】(2021 年 9 月〜 2022 年 5 月)
 
@@ -71,22 +97,16 @@ Terraform | Docker | Datadog | Elasticsearch | Kubernetes | Helm | Skaffold | On
 フロントエンドのロジックと管理者画面の構築やバックエンドの API サーバーの構築。
 Terraform を用いた インフラのコード化。
 
-- 言語選定。上記技術スタックの採用。環境構築。
-- 技術選定の妥当性確認のためミリアプリの構築。
-- システムフロー作成。
-- プロジェクトファイル構成検討。
-- Next.js(TypeScript) によるフロントエンド部分の実装。
-- Golang による REST JSON API サーバーの構築。
-- Golang JWT 発行と認証機能の実装。
-- テスト環境用の Seeder を作成し、シェルスクリプトで自動生成できるように実装。
-- Mysql のテーブル設計や構築。リレーションの構築。
-- Terraform でのインフラのコード化。
-- Firebase Authentication でユーザー２段階認証の追加。
-- シェルスクリプトで様々な業務の自動化。（自動テスト、テストデータ生成、テーブル構築）
-- CircleCI で CI/CD パイプラインの構築。本番環境とステージング環境のデプロイを実現。
-
-【実績】
-プロジェクトの立ち上げに伴い、新規で使用する技術の妥当性確認のためのサンプルアプリを作成し、開発をスムーズに進めることができた。また JWT 認証を実装し、セキュリティー面での向上を図った。インフラの構築を Terraform でコード化することでインフラのメンテナンス性向上を図った。自動化できる作業を徹底的に洗い出し、シェルスクリプトで自動化することに成功した。
+- 言語選定。上記技術スタックの採用。環境構築
+- システムフロー作成
+- プロジェクトファイル構成検討
+- Next.js(TypeScript) によるフロントエンド部分の実装
+- Golang による REST JSON API サーバーの構築
+- Golang JWT 発行と認証機能の実装
+- Mysql のテーブル設計や構築。リレーションの構築
+- Terraform でのインフラのコード化
+- Firebase Authentication でユーザー２段階認証の追加
+- CircleCI で CI/CD パイプラインの構築と本番環境とステージング環境のデプロイを構築
 
 #### 自社開発「フリーランスコンサルタント向け案件紹介サイト」【Vue | Lavarel | AWS S3 | Docker】(2021 年 7 月〜 2021 年 9 月)
 
@@ -97,21 +117,16 @@ Terraform を用いた インフラのコード化。
 【担当業務】
 本プロジェクトはサービス立ち上げから関わり、初期の要件定義から環境構築、実際のコーディング、テスト、デプロイに至るまで一通り担当した。
 
-- 企画会議への参加。
-- 言語選定。上記技術スタックの採用。環境構築。
-- Docker Compose で環境構築。
-- Vue.js によるフロントエンド部分の実装。
-- Laravel Inertia による API サーバーの構築。
-- Mysql のテーブル設計や構築。
-- AWS S3 でファイル保存機能の実装。
-- IAM ユーザー作成とロールの選定。
-- デプロイ用 Bash スクリプトの作成。
-- サイト全体のリファクタリング。
-
-【実績】
-サービスの立ち上げから関わり、エンジニア目線からサービスの仕様や構成に参加した。
-作業の自動化を積極的に行い、デプロイや運用手順書を作成した。
-フロントエンドからバックエンドまでフルスタックに担当した。
+- 企画会議への参加
+- 言語選定
+- Docker Compose で環境構築
+- Vue.js によるフロントエンド部分の実装
+- Laravel Inertia による API サーバーの構築
+- Mysql のテーブル設計や構築
+- AWS S3 でファイル保存機能の実装
+- IAM ユーザー作成とロールの選定
+- デプロイ用 シェルスクリプトの作成
+- サイト全体のリファクタリング
 
 #### 自社開発「学生向け就活 SNS サイト」【React.js | Golang | Firebase | GCP | Docker | Github Actions】(2021 年 5 月〜 2022 年 5 月)
 
@@ -123,42 +138,14 @@ Terraform を用いた インフラのコード化。
 サービス全体の実装をするフルスタックエンジニアとして要件定義からテストまでの工程を担当した。
 各領域で分業体制は取らず、一つの機能の要件定義からコーディング、テストまでを行なった。
 
-- 新規機能追加などの企画会議への参加。
-- React.js によるフロントエンド部分の実装。Firebase との連携。
-- Golang による REST JSON API サーバーの構築。
+- 新規機能追加などの企画会議への参加
+- React.js によるフロントエンド部分の実装
+- Firebase との連携
+- Golang による REST JSON API サーバーの構築
 - Mysql のテーブル設計や構築
-- Firebase Authentication でユーザー２段階認証の追加。
-- Firebase Storage で画像や PDF ファイルの複数枚投稿を実装。
-- Firebase Function にメール送信機能を実装。
-- GCP デプロイ用 シェスクリプトの作成。
-- Github Actions で CI/CD パイプラインの構築。本番環境とステージング環境のデプロイを実現。
-- サイト全体のリファクタリング。
-
-【実績】
-新規機能の追加に加えサービスリリース前後で煩雑になっていたディレクトリ構成やファイルをリファクタリングを徹底的に行なった。手作業で行なっていたコンテナのデプロイ作業やそれに関連する設定ファイルの変更を シェスクリプトで自動化することで大幅なデプロイ時間削減に貢献し、作業を標準化することで作業を標準化することができた。フロントエンドからバックエンドまでフルスタックに担当した。
-
-## 職務経歴(エンジニア以前)
-
-### 外資系化学メーカ勤務 4 年間
-
-#### 製造部 2018 年 ~ 2020 年
-
-- 新規製品の立ち上げ
-- 新規設備導入プロジェクトへの参画
-- 製造設備の図面作成
-- 既存製品ラインの品質改善やコスト削減
-- SOP(標準作業手順書)の作成や改訂
-- Vender との連携
-
-#### 用途開発部 2017 年 ~ 2018 年
-
-- 新規製品の立ち上げ、見積もり
-- SolidWorks での３ D モデル、治具設計
-- SOP(標準作業手順書)の作成や改訂
-- 用途に合わせた試験機の作成
-- 顧客や内部向けレポート作成
-- Lab 設備改善
-
-#### 製造部 2016 年 ~ 2017 年
-
-- プレスオペレーター業務
+- Firebase Authentication でユーザー２段階認証の追加
+- Firebase Storage で画像や PDF ファイルの複数枚投稿を実装
+- Firebase Function にメール送信機能を実装
+- GCP デプロイ用 シェスクリプトの作成
+- Github Actions で CI/CD パイプラインの構築と本番環境とステージング環境のデプロイを構築
+- サイト全体のリファクタリング
