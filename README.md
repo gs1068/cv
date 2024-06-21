@@ -22,13 +22,13 @@ Echo | Goa | Openapi | Gorm | Ruby on Rails | Django | Vue.js | React | Next.js
 
 #### RDB/NoSQL
 
-Mysql | DynamoDB
+Mysql | DynamoDB | Spanner
 
 #### Cloud
 
 ##### AWS
 
-##### Firebase
+#####　GCP Firebase
 
 #### SaaS | PaaS
 
@@ -36,11 +36,32 @@ Github | Github Actions | CircleCI | JIRA | Confluence | Snyk | Trivy | Slack | 
 
 #### Other
 
-Terraform | Docker | Datadog | Elasticsearch | Kubernetes | Helm | Skaffold | Onelogin
+Terraform | Docker | Datadog | Elasticsearch | Kubernetes | Helm | Skaffold | Onelogin | Notion
 
 ## 職務経歴概要
 
-#### 自社開発「ニュースキュレーションアプリ」【TypeScript | Next.js | GraphQL | Golang | Terraform | AWS | Github Actions | Docker】(2023 年 7 月〜 )
+#### 自社開発「FinTech SaaS【TypeScript | ts-rest | gRPC | Golang | GCP | Github Actions | Notion | ArgoCD 】(2024 年 4 月 〜 2024 年 6 月 )
+
+【プロジェクト概要】
+
+FinTech SaaSサーバサイド開発
+
+【担当業務】
+
+  - BFF開発
+    - Express(TypeScript)でスキーマを実装
+    - schema実装
+    - BFF上から各マイクロサービスのgPRCサーバーへへの接続しクライアント側にRestAPIとしてレスポンスを返す
+  - サーバーサイド開発
+    - gPRC protoの実装
+    - GolangでAPI実装
+    - Spanner接続とクエリ実装
+    - Spanner上でのER図自動生成導入
+  - テストカバレッジ100%を達成
+  - QAテストケースの作成と実施
+  - Minispec作成
+
+#### 自社開発「ニュースキュレーションアプリ」【TypeScript | Next.js | GraphQL | Golang | Terraform | AWS | Github Actions | Docker】(2023 年 7 月 〜 2024 年 3 月 )
 
 【プロジェクト概要】
 
@@ -63,7 +84,7 @@ Terraform | Docker | Datadog | Elasticsearch | Kubernetes | Helm | Skaffold | On
   - Terraform で必要なリソースの構築
   - Github Action での CI/CD パイプラインの構築
 
-#### 自社開発「ニュースキュレーションアプリ」【Golang | Terraform | AWS | CircleCI | Github Actions | Docker | Datadog | Kubernetes】(2022 年 5 月〜 )
+#### 自社開発「ニュースキュレーションアプリ」【Golang | Terraform | AWS | CircleCI | Github Actions | Docker | Datadog | Kubernetes】(2022 年 5 月 〜 2024 年 3 月 )
 
 【プロジェクト概要】
 
