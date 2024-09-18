@@ -5,7 +5,7 @@
 | 項目  | 詳細                                 |
 | :---: | :----------------------------------- |
 | 氏名  | Genta Saito                          |
-| 年齢  | 26 歳                                |
+| 年齢  | 27 歳                                |
 | 住所  | 神奈川県                             |
 | Email | genta.otias@gmail.com                |
 | 趣味  | 深夜ラジオ、料理、散歩, サイクリング |
@@ -28,7 +28,7 @@ Mysql | DynamoDB | Spanner
 
 ##### AWS
 
-#####　GCP Firebase
+##### GCP Firebase
 
 #### SaaS | PaaS
 
